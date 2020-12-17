@@ -1,9 +1,10 @@
-module github.com/google/gnxi
+module github.com/mlsgit/gnxi
 
 go 1.13
 
 require (
 	github.com/Microsoft/go-winio v0.4.15 // indirect
+	github.com/YangModels/yang v0.0.0-20201214210619-99de8c987373 // indirect
 	github.com/andybalholm/brotli v1.0.1 // indirect
 	github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6 // indirect
 	github.com/docker/distribution v2.7.1+incompatible // indirect
@@ -16,7 +17,7 @@ require (
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/golang/protobuf v1.4.3
 	github.com/golang/snappy v0.0.2 // indirect
-	github.com/google/go-cmp v0.5.3
+	github.com/google/go-cmp v0.5.4
 	github.com/google/uuid v1.1.2
 	github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 // indirect
 	github.com/gorilla/mux v1.8.0
@@ -32,9 +33,10 @@ require (
 	github.com/moby/moby v1.13.1
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/nwaples/rardecode v1.1.0 // indirect
-	github.com/openconfig/gnmi v0.0.0-20200617225440-d2b4e6a45802
-	github.com/openconfig/goyang v0.0.0-20200623182805-6be32aef2bcd
-	github.com/openconfig/ygot v0.8.9
+	github.com/openconfig/gnmi v0.0.0-20201215182753-b8c3c6eefb6b
+	github.com/openconfig/goyang v0.2.3
+	github.com/openconfig/public v0.0.0-20201114023315-ae5ec3b9c09f // indirect
+	github.com/openconfig/ygot v0.9.0
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/pelletier/go-toml v1.8.1 // indirect
 	github.com/pierrec/lz4 v2.6.0+incompatible // indirect
@@ -51,13 +53,12 @@ require (
 	github.com/ugorji/go v1.1.4 // indirect
 	github.com/ulikunitz/xz v0.5.8 // indirect
 	github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77 // indirect
-	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
-	golang.org/x/sys v0.0.0-20201113233024-12cec1faf1ba // indirect
+	golang.org/x/net v0.0.0-20201216054612-986b41b23924
 	golang.org/x/text v0.3.4 // indirect
 	golang.org/x/tools v0.0.0-20201116002733-ac45abd4c88c // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	google.golang.org/genproto v0.0.0-20201113130914-ce600e9a6f9e
-	google.golang.org/grpc v1.33.2
+	google.golang.org/genproto v0.0.0-20201214200347-8c77b98c765d
+	google.golang.org/grpc v1.34.0
 	google.golang.org/protobuf v1.25.0
 	gopkg.in/check.v1 v1.0.0-20200902074654-038fdea0a05b // indirect
 	gopkg.in/ini.v1 v1.62.0 // indirect

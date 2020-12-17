@@ -33,6 +33,8 @@ const (
 	OpenconfigPlatformModel = "openconfig-platform"
 	// OpenconfigSystemModel is the openconfig YANG model for system.
 	OpenconfigSystemModel = "openconfig-system"
+	// OpenconfigSystemModel is the openconfig YANG model for IP.
+	OpenconfigIfIpModel = "openconfig-if-ip"
 )
 
 var (
